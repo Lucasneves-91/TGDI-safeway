@@ -1,4 +1,4 @@
-package br.com.thesafeway.safeway.Uteis.meuPacote;
+package br.com.thesafeway.safeway.Uteis;
 
 import java.util.InputMismatchException;
 

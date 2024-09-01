@@ -1,4 +1,4 @@
-package br.com.thesafeway.safeway;
+package br.com.thesafeway.safeway.Modelos;
 
 public class Cliente {
     private String nomeCliente;
@@ -7,32 +7,12 @@ public class Cliente {
     private String email;
 
 
-    public String getNomeCliente() {
-        return nomeCliente;
-    }
-
     public void setNomeCliente(String nomeCliente) {
         this.nomeCliente = nomeCliente;
     }
 
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
     public void setTelefone(String telefone) {
         this.telefone = telefone;
-    }
-
-    public String getEmail() {
-        return email;
     }
 
     public void setEmail(String email) {
